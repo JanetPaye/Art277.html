@@ -1,109 +1,291 @@
-/*  Basic style */
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    background-color: rgb(223, 232, 248);
-}
-
-.main {
+/* Basic Style */
+main {
     width: 80%;
     margin: auto;
 }
 
-/* Header style */
+body {
+padding-left: 5%;
+padding-right: 8%;
+}
+span {
+    color: red;
+}
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+       
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+.entity {
+    font-size: 1000px;
+    
+    
+    
+}
+
+h3 {
+    color: rgb(75, 75, 75);;
+}
 .header {
     width: 100%;
     height: auto;
-    
+
 }
 
-.header > h1 {
-    margin-top: 10px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    color:rgb(40,62,104);
-}
-
-    
-
-
-.nav {
-    background-color: rgb(40,62,104);
+.navi {
+    background-color: rgb(59, 54, 54);
     width: 100%;
     height: auto;
+    text-align: right;
+    
 }
 
-ul {
-    list-style-type: none;
+.navi > ul {
+    list-style: none;
+     
 }
 
-
-
- ul > li {
+.navi > li {
     display: inline-block;
-    word-spacing: 20px;
-    font-size: 18px;
-    padding: 20px;
+    word-spacing: 0px;
+    font-size: 27px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 li > a {
     text-decoration: none;
-    color: #fff;
-
+    color: rgb(248, 248, 221);
 }
-
-/* Banner Image */
-.banner {
+.content {
     width: 100%;
-    height: 400px;
-}
-
-/* content style */
-h2 {
-    font-size: 26px;
-    margin: 15px 0;
-    
-}
-
-.content > p {
-    font-size: 1.2em;
-    line-height: 27px;
-    
-}
-
-.content > p > img {
-    width: 15%;
-    height: 170px;
-    float: right;
-}
-
-.content > p2 > img {
-    width: 15%;
-    height: 170px;
-    float: left;
-   
-}
-    
-/* Footer style */
-
-.footer {
-    background-color: rgb(40,62,104);
-    margin-top: 30px;
-    padding: 35px;
-    font-size: 1.2em;
-    color: #fff;
-}
-
-/* page Title */
-.pageTitle {
-    background-color: rgb(9,23,49);
-    height: 200px;
+    height: auto;
+    font-size: 1.7em;
     padding: 20px;
-    color: #fff;
+    color: white;
+}
+
+.content1 {
+    background-color: black;
+    font-size: 40px;
+    width: 100%;
+    height: 150px;
+}
+
+.reservation {
     text-align: center;
 }
+
+.content1 >img{
+    height: 100px;
+    
+    
+}
+
+.story > p > img {
+    width: 250px;
+    height: 250px;
+    float: right; 
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+.about > p > img {
+    width: 500px;
+    height: 330px;
+    float: right; 
+    margin-left: 20px;
+}
+
+.about1 >img {
+    width: 500px;
+    height: 450px;
+    float: right; 
+    margin-left: 20px
+}
+.content > h3 {
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(69, 83, 69);
+    margin:1% 0%;
+    
+}
+
+.content > h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+}
+
+.content > img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    
+}
+
+.entity {
+    list-style: none;
+    font-size: 1.2em;
+    color: whitesmoke;
+    float: left;
+    
+}
+
+.chefs {
+    background-color: black;
+  
+}
+
+.chefs >img{
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 90%;
+
+}
+
+.map {
+    width:00%;
+    height:100%;
+}
+.lot > table {
+    width: 100%;s
+    height: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 14px;
+  
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: red;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: red;
+  color: white;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.footer {
+    background-color: rgb(59, 54, 54);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: ivory;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.chefss >img {
+        width: 300px;
+        border-radius: 50%;
+
+}
+
+.gallery {
+    text-align: center;
+}
+.gallery >img {
+    width: 300px;
+    border-radius: 50%;
+}
+#tab{
+    border: white;
+    background-color: green;
+    margin-bottom: 0px;
+    padding: 2px;;
+}
+#tab th, td, tr{
+    padding: 10px;
+    width: 100px;
+    height: 8px;
+    margin-left:10%;
+    margin-right:10%;
+    position: center;
+}
+
+.form{
+
+    background-image:url(face.jpeg);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+   color: black; 
+   
+}
+#name, #email, #phone, #guest, #reservation {
+    border-radius: 7px;
+    width: 100%;
+    height: 45px;
+    
+}
+#form label{
+    font-weight: 200px;
+    color: red;
+    font-size: large;
+    
+}
+#form input{
+    font-size: 200px;
+    color: black
+    
+    
+}
+#message {
+    border-radius: 7px;
+    width: 100%;
+    height: 70px;
+}
+#sub{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    font-size: 40px;
+}
+
+
+
